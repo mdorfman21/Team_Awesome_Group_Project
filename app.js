@@ -1,9 +1,9 @@
 function getCocktailAPI() {
   //need to get the correct value from checkboxes not input
-  var searchIngredient = $("#ingredient-one").val();
+  var searchCategory = $("#cateogry").val();
   var queryURL =
     "https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=" +
-    searchIngredient;
+    searchCategory;
 
   //the ajax call to the cocktaildb api to get the list of drinks by searching with an ingredient
   $.ajax({
