@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./main.css">
     <link rel="stylesheet" href="./reset.css">
     <link rel="icon" type="image/png" href="">
 </head>
@@ -15,23 +15,12 @@
    
     <header class="header fixed-top header-light">
         <div class="container">
-            <h1 class="header-brand">Alcohol</h1>
+            <h1 class="header-brand"><a href="./index.html" style="color:white; text-decoration: none;">Welcome to Alcohol</a></h1>
             <ul class="header-btns">
-                <li class="lang-item"><a lang="#">English</a></li>
-                <li class="btn">Get Started</li>
-                <!-- <li class="btn menu_show">Menu Symbol</li> -->
-                <li>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Menu
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Recipes</a>
-                            <a class="dropdown-item" href="#">Videos</a>
-                            <a class="dropdown-item" href="#">Descriptions</a>
-                        </div>
-                    </div>
-                </li>   
+                <!-- <li class="lang-item"><a lang="#">English</a></li> -->
+                <li class="btn" id="get-started-btn"><a href="./getStarted.html" style="color:white; text-decoration: none;">Recipes</a></li>
+                <li class="btn" id="get-started-btn"><a href="./getStarted.html" style="color:white; text-decoration: none;">Ordering Alcohol</li>
+                <li class="btn" id="get-started-btn"><a href="./getStarted.html" style="color:white; text-decoration: none;">Bars</li>
             </ul> 
         </div>   
     </header>
@@ -39,7 +28,7 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 id="jumbotron-title">Be you own bartender and somolier</h1>
+            <h1 id="jumbotron-title">Be you own bartender and sommolier</h1>
             <p id="jumbotron-message">A warm welcome to Alcohol(name of project). Enjoy direct access to beverage execution and bespoke recipes through our proprietary technological capabilities and strong partner network.</p>
             <a href="" class="btn">Get in touch and start drinking</a>
         </div>
@@ -332,6 +321,6 @@
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous">
     </script>
-    <script src="app.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
