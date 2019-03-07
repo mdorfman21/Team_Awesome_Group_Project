@@ -162,22 +162,29 @@ $("#submit").on("click", function(e) {
     console.log(testFilter);
 
     for (var i = 0; i < 10; i++) {
-      var y = testFilter[i];
-      var name = $("<p>");
-      var howTo = $("<p>");
-      var instructions = $("<p>");
-      var parentDiv = $("<div>");
-      name.text(y.strDrink);
-      instructions.text(y.strInstructions);
-      y.ingredients.forEach(z => {
-        var comboMeasure = $("<p>");
-        comboMeasure.text(z.measurement + z.name);
-        howTo.append(comboMeasure);
-      });
-      parentDiv.append(name);
-      parentDiv.append(howTo);
-      parentDiv.append(instructions);
-      $("#recipe-output").append(parentDiv);
+      if (!testFilter[i]) {
+        break;
+      } else {
+        var y = testFilter[i];
+        var name = $("<p>");
+        var howTo = $("<p>");
+        var instructions = $("<p>");
+        var parentDiv = $("<div>");
+        var drinkNumber = $("<p>");
+        name.text(y.strDrink);
+        instructions.text(y.strInstructions);
+        drinkNumber.text("Drink #" + (i + 1));
+        y.ingredients.forEach(z => {
+          var comboMeasure = $("<p>");
+          comboMeasure.text(z.measurement + z.name);
+          howTo.append(comboMeasure);
+        });
+        parentDiv.append(drinkNumber);
+        parentDiv.append(name);
+        parentDiv.append(howTo);
+        parentDiv.append(instructions);
+        $("#recipe-output").append(parentDiv);
+      }
     }
   });
 
