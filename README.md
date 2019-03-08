@@ -1,2 +1,30 @@
 # Team_Awesome_Group_Project
-Columbia Group Project Number 1
+
+# B.Y.O.B -- Be Your Own Bartender
+
+## Contents:
+- Team Members
+- Project Description
+- Project Design
+- APIs in Use
+
+## Team Members
+- Morgan  - GitHub Master
+- Caitlyn
+- Tamar
+- Deedee
+- Meron
+
+## Project Description:
+The B.Y.O.B - Be Your Own Bartender project provides a one-stop platform, allowing users to search and browse the many alcoholic recipes. We are here to bring basic mixology to the masses.  Tasty classics with ingredients you should be able to aquire easily. We will tell you what you need and how much of it to use.
+Why B.Y.O.B? Because being your own bartender is just fun.
+
+## Project Design
+This is a Single Page Web Application that is dynamically inserting the content (views) on a single page
+![screenshot of design](/images/byob-screenshot.png?raw=true "B.Y.O.B)
+
+## Tech/APIs/Library in Use
+- The Cocktail DB 
+- Age Verify
+- Flicker
+- CSS uses Flexbox, Bootstrap CSS, and CSS only animation
