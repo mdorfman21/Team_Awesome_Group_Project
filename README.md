@@ -6,7 +6,7 @@
 - Team Members
 - Project Description
 - Project Design
-- APIs in Use
+- Tech/APIs/Library in Use
 
 ## Team Members
 - Morgan  - GitHub Master
@@ -24,6 +24,7 @@ This is a Single Page Web Application that is dynamically inserting the content 
 ![](images/byob-screenshot.png)
 
 ## Tech/APIs/Library in Use
+- HTML, CSS, Bootstrap, Javascript, jQuery, Ajax 
 - The Cocktail DB 
 - Age Verify
 - Flicker
