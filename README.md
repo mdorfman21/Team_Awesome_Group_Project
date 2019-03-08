@@ -21,7 +21,7 @@ Why B.Y.O.B? Because being your own bartender is just fun.
 
 ## Project Design
 This is a Single Page Web Application that is dynamically inserting the content (views) on a single page
-![screenshot of design](/images/byob-screenshot.png?raw=true "B.Y.O.B)
+![](images/byob-screenshot.png)
 
 ## Tech/APIs/Library in Use
 - The Cocktail DB 
